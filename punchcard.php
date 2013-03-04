@@ -1,4 +1,9 @@
 <?php
+/*
+    GPLv2
+    Copyright 2013 Aaron Jorbin (aaron@jorb.in)
+*/
+
 date_default_timezone_set('America/New_York');
 require "parser.php";
 $file = $argv[1];;

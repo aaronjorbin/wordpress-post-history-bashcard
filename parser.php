@@ -1,10 +1,8 @@
 <?php
-/**
- * Butchered version of WordPress eXtended RSS file parser implementations
- *
- * @package WordPress
- * @subpackage Importer
- */
+/*
+    Code taken from WordPress and WordPress Importer Plugin. 
+    GPLv2 or later
+*/
 
 /**
  * WordPress Error API.
@@ -215,6 +213,13 @@ function is_wp_error($thing) {
 		return true;
 	return false;
 }
+/**
+ * Butchered version of WordPress eXtended RSS file parser implementations
+ *
+ * @package WordPress
+ * @subpackage Importer
+ */
+
 /**
  * WordPress Importer class for managing parsing of WXR files.
  */
